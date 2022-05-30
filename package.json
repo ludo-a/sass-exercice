@@ -1,14 +1,19 @@
 {
-  "name": "sass-course",
+  "name": "writing-sass",
   "version": "1.0.0",
-  "description": "",
+  "description": "Joe Blow's portfolio",
   "main": "index.js",
   "scripts": {
-    "sass": "node_modules/.bin/node-sass --watch ./sass/main.scss ./public/css/style.css --style expanded --no-source-map"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerkx/maintainable-css-with-sass.git"
+  },
+  "author": "gerkx",
   "license": "ISC",
-  "dependencies": {
-    "node-sass": "^5.0.0"
-  }
+  "bugs": {
+    "url": "https://github.com/gerkx/maintainable-css-with-sass/issues"
+  },
+  "homepage": "https://github.com/gerkx/maintainable-css-with-sass#readme"
 }

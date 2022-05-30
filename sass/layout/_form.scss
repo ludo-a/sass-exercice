@@ -10,14 +10,14 @@
         padding: $grid-gutter;
     }
     &__field {
-        label {
+        & label {
             color: $colour-accent;
             display: block;
             font-size: 2rem;
             line-height: 2rem;
             padding-top: $grid-gutter;
         }
-        input {
+        & input {
             width: 100%;
             background: $colour-secondary;
             @include border;
@@ -26,24 +26,19 @@
             font-weight: 900;
             font-style: italic;
             font-size: 2.75rem;
-          &:focus {
-            background: $colour-primary;
-            color: $colour-white;
-          }
+            @include border;
+            background-color: $colour-secondary;
+            color: $colour-primary;
 
         }
-        textarea {
+        & textarea {
             width: 100%;
             color: $colour-primary;
             background: $colour-secondary;
             @include border;
             outline: none;
             padding: $grid-gutter;
-            margin-bottom: $grid-gutter;
-            &:active, &:focus {
-                color: $colour-accent;
-            }
+            margin-bottom: $grid-gutter*0.5;
         }
     }
-
 }
